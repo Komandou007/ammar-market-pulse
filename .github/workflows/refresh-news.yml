@@ -4,7 +4,7 @@ name: Refresh Economic News
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
