@@ -1,23 +1,29 @@
-name: تحديث الأخبار الاقتصادية
+
+name: Refresh Economic News
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: refresh-news
+  group: refresh-economic-news-main
   cancel-in-progress: false
 
 jobs:
   refresh-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,22 +31,40 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch economic RSS headlines
-        run: |
-          # ضع هنا أمرك الحالي كما هو، مثلاً:
-          python fetch_news.py
+        run: python scripts/fetch_news.py
 
       - name: Commit updated news
+        shell: bash
         run: |
-          if git diff --quiet -- news.json; then
-            echo "no changes"
-            exit 0
-          fi
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json
-          git commit -m "Update economic news"
-          for i in 1 2 3; do
-            git pull --rebase -X theirs origin main && git push && exit 0
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            # Synchronize with the latest main while preserving
+            # the generated news.json in the working directory.
+            git reset --mixed origin/main
+
+            git add news.json
+
+            if git diff --cached --quiet; then
+              echo "No news changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Update economic news"
+
+            if git push origin HEAD:main; then
+              echo "News update pushed successfully."
+              exit 0
+            fi
+
+            echo "Push conflict on attempt ${attempt}; retrying."
             sleep 3
           done
+
+          echo "Failed to push news after three attempts."
           exit 1
