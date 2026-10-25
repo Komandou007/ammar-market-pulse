@@ -11,6 +11,16 @@
 :root{--bg:#07111e;--panel:#0d1b2b;--panel2:#112338;--line:#20354b;--text:#eef4fb;--muted:#9fb1c5;--gold:#f2c66d;--cyan:#70d9e8;--green:#48d6a0;--red:#ff7777}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#10233a 0,#07111e 48%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 28px));margin:auto}.topline{border-bottom:1px solid var(--line);color:var(--muted);font-size:12px;padding:8px 0}.toprow{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}.status{display:inline-flex;align-items:center;gap:7px}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px #48d6a077}.header{padding:18px 0;border-bottom:1px solid var(--line);position:relative}.brandrow{display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;display:grid;place-items:center;background:linear-gradient(135deg,#ffe5a4,#c58a26);border-radius:14px;color:#101827;font-size:25px;font-weight:900;box-shadow:0 8px 25px #f2c66d22}.brand h1{font-size:clamp(17px,2.5vw,25px);letter-spacing:.4px;margin:0;color:var(--gold)}.brand p{margin:1px 0 0;color:var(--muted);font-size:12px}.controls{display:flex;align-items:center;gap:9px}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:10px;padding:9px 13px;font:inherit;cursor:pointer}.btn:hover{border-color:var(--gold)}.nav{display:flex;gap:20px;overflow:auto;padding:14px 0 0;color:#c4d2e1;font-size:14px;white-space:nowrap}.nav a:hover{color:var(--gold)}.hero{padding:34px 0 24px;display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.hero-main,.hero-side,.card{background:linear-gradient(150deg,#102238,#0b1827);border:1px solid var(--line);border-radius:18px;padding:22px}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:1px}.hero h2{font-size:clamp(27px,4.2vw,48px);line-height:1.2;margin:12px 0}.hero h2 span{color:var(--gold)}.hero p{color:var(--muted);max-width:650px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.primary{background:var(--gold);color:#101827;border:0;font-weight:800}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.metric{background:#071522;border:1px solid var(--line);border-radius:12px;padding:12px}.metric strong{display:block;color:var(--gold);font-size:14px}.metric span{font-size:11px;color:var(--muted)}.hero-side h3{margin:0 0 12px;font-size:17px}.sideitem{padding:12px 0;border-top:1px solid var(--line)}.sideitem b{display:block;font-size:14px}.sideitem small{color:var(--muted)}.section{padding:18px 0 28px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:14px}.section-head h2{margin:0;font-size:22px}.section-head p{margin:4px 0 0;color:var(--muted);font-size:13px}.tag{font-size:11px;color:var(--gold);border:1px solid #8d713b;border-radius:30px;padding:5px 9px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card h3{margin:0 0 8px;font-size:17px}.card p{color:var(--muted);font-size:13px;margin:5px 0 12px}.widget{min-height:300px;overflow:hidden;border-radius:12px;background:#fff}.widget iframe{width:100%;border:0}.widget-note{font-size:11px;color:var(--muted);margin-top:8px}.news-card{padding:18px;min-height:178px;display:flex;flex-direction:column;align-items:flex-start}.news-card .icon{font-size:24px;margin-bottom:8px}.news-card h3{font-size:16px}.news-card a{margin-top:auto;color:var(--cyan);font-size:13px}.news-card a:hover{text-decoration:underline}.disclaimer{background:#241e11;border:1px solid #65502b;color:#f1dcae;border-radius:12px;padding:13px 15px;font-size:12px}.footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:12px}.footerrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer strong{color:var(--gold)}.hide{display:none!important}
 @media(max-width:780px){.hero{grid-template-columns:1fr;padding-top:20px}.grid2,.grid3{grid-template-columns:1fr}.hero-main,.hero-side,.card{padding:17px}.metrics{grid-template-columns:repeat(3,1fr)}.nav{gap:16px}.brand p{font-size:11px}.controls .btn{padding:8px 10px}}
+
+.live-news-list{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.live-news-item{border:1px solid var(--line);background:#081725;border-radius:13px;padding:15px;display:flex;flex-direction:column;gap:8px;min-height:150px}
+.live-news-item .source{font-size:11px;color:var(--gold);font-weight:700}
+.live-news-item h3{font-size:15px;line-height:1.5;margin:0}
+.live-news-item p{font-size:12px;color:var(--muted);margin:0}
+.live-news-item a{color:var(--cyan);font-size:12px;margin-top:auto}
+.news-status{font-size:12px;color:var(--muted);margin:0 0 12px}
+@media(max-width:780px){.live-news-list{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -60,6 +70,14 @@
   <div class="card"><div class="widget" style="min-height:520px"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>{"colorTheme":"dark","isTransparent":true,"width":"100%","height":"100%","locale":"en","importanceFilter":"0,1","currencyFilter":"USD,EUR,GBP,JPY,CNY,AUD,CAD,CHF,NZD"}</script></div></div><div class="widget-note" data-ar="راجع التوقيت والمنطقة الزمنية والبيانات الرسمية قبل التداول." data-en="Check the timezone and official releases before trading.">راجع التوقيت والمنطقة الزمنية والبيانات الرسمية قبل التداول.</div></div>
 </section>
 
+
+<section id="live-news" class="section">
+  <div class="section-head"><div><h2 data-ar="آخر الأخبار الاقتصادية" data-en="Latest economic news">آخر الأخبار الاقتصادية</h2><p data-ar="عناوين وروابط من مصادر رسمية؛ افتح المصدر لقراءة التفاصيل." data-en="Headlines and links from official sources; open the source for full details.">عناوين وروابط من مصادر رسمية؛ افتح المصدر لقراءة التفاصيل.</p></div><span class="tag" data-ar="موجز مصادر" data-en="Source feed">موجز مصادر</span></div>
+  <div id="newsStatus" class="news-status" data-ar="جارٍ تحميل أحدث العناوين المتاحة..." data-en="Loading the latest available headlines...">جارٍ تحميل أحدث العناوين المتاحة...</div>
+  <div id="liveNewsList" class="live-news-list"></div>
+  <p class="widget-note" data-ar="تُحدَّث هذه القائمة عبر مهمة مجدولة في GitHub Actions. قد تتأخر التحديثات أو يتوقف مصدر مؤقتًا؛ وقت النشر الأصلي ظاهر عند توفره." data-en="This list is refreshed by a scheduled GitHub Actions job. Updates may be delayed or a source may temporarily fail; original publication time is shown when available.">تُحدَّث هذه القائمة عبر مهمة مجدولة في GitHub Actions. قد تتأخر التحديثات أو يتوقف مصدر مؤقتًا؛ وقت النشر الأصلي ظاهر عند توفره.</p>
+</section>
+
 <section id="news" class="section">
   <div class="section-head"><div><h2 data-ar="مصادر الأخبار الاقتصادية" data-en="Economic news sources">مصادر الأخبار الاقتصادية</h2><p data-ar="روابط أولية للمصادر الرسمية. هذه روابط وليست موجز أخبار حيًّا." data-en="Starting links to primary sources. These are links, not a live news feed.">روابط أولية للمصادر الرسمية. هذه روابط وليست موجز أخبار حيًّا.</p></div></div>
   <div class="grid3">
@@ -83,5 +101,45 @@ langBtn.addEventListener('click',()=>setLang(document.documentElement.lang==='ar
 const saved=localStorage.getItem('amp-lang');if(saved)setLang(saved);
 const now=new Date();document.getElementById('year').textContent=now.getFullYear();document.getElementById('today').textContent=now.toLocaleDateString(document.documentElement.lang==='ar'?'ar-LB':'en-GB',{year:'numeric',month:'short',day:'numeric'});
 </script>
+
+<script>
+(async function loadMarketPulseNews(){
+  const status=document.getElementById('newsStatus');
+  const list=document.getElementById('liveNewsList');
+  if(!status||!list)return;
+  const lang=document.documentElement.lang==='en'?'en':'ar';
+  const messages={
+    ar:{loading:'جارٍ تحميل أحدث العناوين المتاحة...',empty:'لا تتوفر عناوين الآن. يمكنك زيارة المصادر الرسمية أدناه.',error:'تعذر تحميل موجز الأخبار الآن. جرّب لاحقًا أو افتح المصادر الرسمية.',published:'نُشر:',open:'قراءة الخبر من المصدر ↗'},
+    en:{loading:'Loading the latest available headlines...',empty:'No headlines are available right now. Visit the official sources below.',error:'The news feed could not be loaded. Try again later or visit official sources.',published:'Published:',open:'Read at source ↗'}
+  };
+  const m=messages[lang]||messages.ar;
+  status.textContent=m.loading;
+  try{
+    const response=await fetch('./news.json?ts='+Date.now(),{cache:'no-store'});
+    if(!response.ok)throw new Error('feed unavailable');
+    const data=await response.json();
+    const items=Array.isArray(data.items)?data.items:[];
+    if(!items.length){status.textContent=m.empty;return;}
+    list.replaceChildren();
+    items.slice(0,12).forEach(item=>{
+      if(!item||!item.title||!item.url)return;
+      const article=document.createElement('article');article.className='live-news-item';
+      const source=document.createElement('div');source.className='source';source.textContent=item.source||'Official source';
+      const title=document.createElement('h3');title.textContent=item.title;
+      article.append(source,title);
+      if(item.published){
+        const date=document.createElement('p');
+        const d=new Date(item.published);
+        date.textContent=m.published+' '+(isNaN(d.getTime())?item.published:d.toLocaleString(lang==='ar'?'ar-LB':'en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'})+' UTC');
+        article.append(date);
+      }
+      const link=document.createElement('a');link.href=item.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=m.open;article.append(link);
+      list.append(article);
+    });
+    status.textContent=(lang==='ar'?'آخر تحديث للموجز: ':'Feed last updated: ')+(data.updated_at||'');
+  }catch(e){status.textContent=m.error;}
+})();
+</script>
+
 </body>
 </html>
