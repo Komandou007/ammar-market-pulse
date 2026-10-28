@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-28T17:25:45.603569+00:00",
+  "updated_at": "2026-10-28T18:10:02.450971+00:00",
   "items": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-10-28T18:00:00+00:00"
+    },
     {
       "title": "Major Economic Indicators Latest Numbers",
       "url": "https://www.bls.gov/bls/",
@@ -174,12 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
       "source": "EIA",
       "published": "2026-10-05T14:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-10-02T20:45:00+00:00"
     }
   ]
 }
