@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-28T13:14:29.048809+00:00",
+  "updated_at": "2026-10-28T14:11:17.715806+00:00",
   "items": [
+    {
+      "title": "Major Economic Indicators Latest Numbers",
+      "url": "https://www.bls.gov/bls/",
+      "source": "BLS",
+      "published": "2026-10-28T14:01:13+00:00"
+    },
     {
       "title": "October 2026 euro area bank lending survey",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
@@ -48,12 +54,6 @@
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
       "source": "ECB",
       "published": "2026-10-21T04:15:00+00:00"
-    },
-    {
-      "title": "Major Economic Indicators Latest Numbers",
-      "url": "https://www.bls.gov/bls/",
-      "source": "BLS",
-      "published": "2026-10-20T14:02:35+00:00"
     },
     {
       "title": "Frank Elderson: Interview with Die Presse",
