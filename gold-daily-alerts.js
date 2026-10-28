@@ -1,151 +1,216 @@
 
-/* AMMAR MARKET PULSE - GOLD ALERTS */
+/* AMMAR MARKET PULSE - GOLD ALERTS V2 */
 (function () {
   "use strict";
 
-  const LANG = () =>
-    document.documentElement.lang === "en" ? "en" : "ar";
+  const ID = "ammarGoldAlerts";
+  if (document.getElementById(ID)) return;
 
-  const TEXT = {
-    title: ["تنبيهات أخبار الذهب", "Gold News Alerts"],
-    enable: ["تفعيل التنبيهات", "Enable notifications"],
-    loading: ["جارٍ فحص الأخبار...", "Checking news..."],
-    empty: [
-      "لا توجد أخبار مرتبطة بالذهب في الموجز الحالي.",
-      "No gold-related news in the current feed."
-    ],
-    error: [
-      "تعذر تحميل الأخبار. حاول لاحقًا.",
-      "Could not load news. Try again later."
-    ],
-    source: ["قراءة الخبر من المصدر", "Read source"],
-    permission: [
-      "اسمح بالإشعارات من المتصفح لتلقي التنبيهات أثناء فتح الموقع.",
-      "Allow browser notifications to receive alerts while the site is open."
-    ]
-  };
+  const isEnglish = () => document.documentElement.lang === "en";
+  const text = (ar, en) => isEnglish() ? en : ar;
 
-  const t = (key) => TEXT[key][LANG() === "en" ? 1 : 0];
+  const directGold =
+    /\b(gold|xauusd|bullion|precious metals?)\b|الذهب|المعادن الثمينة/i;
 
-  const keywords =
-    /gold|xauusd|bullion|precious metal|federal reserve|interest rate|inflation|cpi|pce|nonfarm|payroll|unemployment|dollar|treasury yield|الذهب|الفيدرالي|الفائدة|التضخم|الدولار|الوظائف/i;
+  const goldDrivers =
+    /\b(federal reserve|fed\b|fomc|interest rates?|inflation|cpi|pce|nonfarm|payrolls?|unemployment|us dollar|dxy|treasury yields?|jobs report|central bank|rate decision|powell)\b|الفيدرالي|الفائدة|التضخم|الدولار|عوائد السندات|الوظائف|البنك المركزي/i;
 
-  function start() {
-    if (document.getElementById("ammarGoldAlerts")) return;
+  const panel = document.createElement("section");
+  panel.id = ID;
+  panel.style.cssText =
+    "margin:18px 0;padding:16px;border:1px solid #8b6b2e;" +
+    "border-radius:14px;background:#0d1b2b;color:#eef4fb;" +
+    "font-family:inherit;direction:rtl;";
 
-    const panel = document.createElement("section");
-    panel.id = "ammarGoldAlerts";
-    panel.style.cssText =
-      "margin:18px 0;padding:16px;border:1px solid #8b6b2e;" +
-      "border-radius:14px;background:#0d1b2b;color:#eef4fb;" +
-      "font-family:inherit;";
+  const title = document.createElement("h2");
+  title.textContent = "🟡 " +
+    text("تنبيهات الذهب والأخبار المؤثرة", "Gold & Market Alerts");
 
-    const title = document.createElement("h2");
-    title.textContent = "🟡 " + t("title");
-    title.style.marginTop = "0";
+  const description = document.createElement("p");
+  description.textContent = text(
+    "يراقب هذا القسم موجز الأخبار المنشور بالموقع. أبقِ الصفحة مفتوحة لاستقبال الإشعارات.",
+    "This panel monitors the site's news feed. Keep this page open to receive notifications."
+  );
 
-    const note = document.createElement("p");
-    note.textContent = t("permission");
+  const enable = document.createElement("button");
+  enable.type = "button";
+  enable.textContent = text("تفعيل إشعارات الأخبار", "Enable news notifications");
+  enable.style.cssText =
+    "padding:10px 14px;border:0;border-radius:8px;" +
+    "background:#f2c66d;color:#07111e;font-weight:bold;";
 
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = t("enable");
-    button.style.cssText =
-      "padding:10px 14px;border:0;border-radius:8px;" +
-      "background:#f2c66d;color:#07111e;font-weight:bold;";
+  const status = document.createElement("p");
+  status.textContent = text("جارٍ تحميل الأخبار...", "Loading news...");
 
-    const status = document.createElement("p");
-    status.textContent = t("loading");
+  const list = document.createElement("div");
+  list.style.cssText = "display:grid;gap:10px;";
 
-    const list = document.createElement("div");
-    list.style.cssText = "display:grid;gap:10px;";
+  panel.append(title, description, enable, status, list);
 
-    panel.append(title, note, button, status, list);
+  const target =
+    document.getElementById("liveNewsList") ||
+    document.getElementById("live-news") ||
+    document.querySelector("main") ||
+    document.body;
 
-    const target =
-      document.getElementById("liveNewsList") ||
-      document.querySelector("main") ||
-      document.body;
+  target.appendChild(panel);
 
-    target.appendChild(panel);
+  const storageKey = "ammarGoldAlertsSeenV2";
+  let seen = new Set();
+  let initialized = false;
+  let busy = false;
 
-    button.addEventListener("click", async () => {
-      if (!("Notification" in window)) {
-        status.textContent =
-          "المتصفح لا يدعم إشعارات الويب.";
-        return;
-      }
+  try {
+    const saved = JSON.parse(localStorage.getItem(storageKey) || "[]");
+    if (Array.isArray(saved)) seen = new Set(saved);
+  } catch (_) {}
 
-      try {
-        const permission = await Notification.requestPermission();
-        status.textContent =
-          permission === "granted"
-            ? "تم السماح بالإشعارات. يجب إبقاء الموقع مفتوحًا."
-            : "لم يتم السماح بالإشعارات.";
-      } catch (_) {
-        status.textContent = "تعذر تفعيل الإشعارات.";
-      }
-    });
+  function getItems(data) {
+    return Array.isArray(data.items) ? data.items : [];
+  }
 
-    async function refresh() {
-      try {
-        const response = await fetch("./news.json?ts=" + Date.now(), {
-          cache: "no-store"
-        });
+  function itemKey(item) {
+    return String(item.url || "") ||
+      String(item.title || "") + "|" + String(item.published || "");
+  }
 
-        if (!response.ok) throw new Error("News unavailable");
+  function makeLink(item) {
+    const card = document.createElement("article");
+    card.style.cssText =
+      "padding:12px;border:1px solid #20354b;border-radius:10px;";
 
-        const data = await response.json();
-        const items = Array.isArray(data.items) ? data.items : [];
-        const matches = items.filter(item =>
-          item && item.title && item.url &&
-          keywords.test(item.title + " " + (item.source || ""))
-        );
+    const category = document.createElement("small");
+    category.textContent = directGold.test(item.title)
+      ? text("خبر مرتبط مباشرة بالذهب", "Direct gold news")
+      : text("عامل اقتصادي قد يؤثر في الذهب", "Potential gold market driver");
+    category.style.color = "#f2c66d";
 
-        list.replaceChildren();
+    const heading = document.createElement("h3");
+    heading.textContent = item.title;
+    heading.style.margin = "8px 0";
 
-        if (!matches.length) {
-          status.textContent = t("empty");
-          return;
-        }
+    const source = document.createElement("p");
+    source.textContent = item.source || text("مصدر إخباري", "News source");
 
-        matches.slice(0, 8).forEach(item => {
-          const card = document.createElement("article");
-          card.style.cssText =
-            "padding:10px;border:1px solid #20354b;border-radius:9px;";
+    const link = document.createElement("a");
+    link.href = item.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = text("قراءة الخبر من المصدر ↗", "Read original source ↗");
+    link.style.color = "#f2c66d";
 
-          const heading = document.createElement("strong");
-          heading.textContent = item.title;
+    card.append(category, heading, source, link);
+    return card;
+  }
 
-          const source = document.createElement("p");
-          source.textContent = item.source || "News source";
-
-          const link = document.createElement("a");
-          link.href = item.url;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent = t("source");
-          link.style.color = "#f2c66d";
-
-          card.append(heading, source, link);
-          list.appendChild(card);
-        });
-
-        status.textContent =
-          (LANG() === "en" ? "Matching headlines: " : "عدد الأخبار المرتبطة: ") +
-          matches.length;
-      } catch (_) {
-        status.textContent = t("error");
-      }
+  enable.addEventListener("click", async function () {
+    if (!("Notification" in window)) {
+      status.textContent = text(
+        "هذا المتصفح لا يدعم إشعارات الويب.",
+        "This browser does not support web notifications."
+      );
+      return;
     }
 
-    refresh();
-    window.setInterval(refresh, 5 * 60 * 1000);
+    try {
+      const permission = await Notification.requestPermission();
+
+      status.textContent = permission === "granted"
+        ? text(
+            "الإشعارات مفعّلة. أبقِ الموقع مفتوحًا لمراقبة الأخبار.",
+            "Notifications enabled. Keep the page open to monitor news."
+          )
+        : text(
+            "لم يُمنح إذن الإشعارات. تحقق من إعدادات المتصفح.",
+            "Notification permission was not granted."
+          );
+    } catch (_) {
+      status.textContent = text(
+        "تعذر تفعيل الإشعارات.",
+        "Could not enable notifications."
+      );
+    }
+  });
+
+  async function refresh() {
+    if (busy) return;
+    busy = true;
+
+    try {
+      const response = await fetch("./news.json?ts=" + Date.now(), {
+        cache: "no-store"
+      });
+
+      if (!response.ok) throw new Error("News feed unavailable");
+
+      const data = await response.json();
+      const items = getItems(data).filter(item =>
+        item && item.title && item.url
+      );
+
+      const relevant = items.filter(item =>
+        directGold.test(item.title) ||
+        goldDrivers.test(item.title)
+      );
+
+      const fresh = relevant.filter(item => !seen.has(itemKey(item)));
+
+      list.replaceChildren();
+
+      if (!relevant.length) {
+        status.textContent = text(
+          "لا توجد أخبار مرتبطة بالذهب أو العوامل المحددة في الموجز الحالي.",
+          "No matching gold or market-driver headlines in the current feed."
+        );
+      } else {
+        relevant.slice(0, 10).forEach(item => list.appendChild(makeLink(item)));
+
+        status.textContent = text(
+          "عدد الأخبار المرتبطة: ",
+          "Relevant headlines: "
+        ) + relevant.length;
+      }
+
+      // عند أول تحميل نسجل الأخبار الموجودة فقط؛ لا نرسل إشعارات قديمة.
+      if (!initialized) {
+        items.forEach(item => seen.add(itemKey(item)));
+        initialized = true;
+      } else {
+        fresh.forEach(item => {
+          if ("Notification" in window &&
+              Notification.permission === "granted") {
+            try {
+              new Notification(
+                text("AMMAR MARKET PULSE — تنبيه سوق", "AMMAR MARKET PULSE — Market Alert"),
+                {
+                  body: item.title,
+                  tag: itemKey(item)
+                }
+              );
+            } catch (_) {}
+          }
+
+          seen.add(itemKey(item));
+        });
+      }
+
+      try {
+        localStorage.setItem(
+          storageKey,
+          JSON.stringify(Array.from(seen).slice(-300))
+        );
+      } catch (_) {}
+
+    } catch (_) {
+      status.textContent = text(
+        "تعذر تحديث الأخبار الآن. حاول لاحقًا.",
+        "Could not refresh the news feed. Try again later."
+      );
+    } finally {
+      busy = false;
+    }
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", start);
-  } else {
-    start();
-  }
+  refresh();
+  window.setInterval(refresh, 5 * 60 * 1000);
 })();
