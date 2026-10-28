@@ -151,9 +151,8 @@
     const today = dateKey(now);
     const tomorrow = dateKey(addDays(now, 1));
     const weekday = (Number(new Intl.DateTimeFormat("en-US", {
-      timeZone: ZONE, weekday: "numeric"
-    }).format(now)) || now.getDay());
-
+  timeZone: ZONE, weekday: "numeric"
+}).format(now)) || now.getDay());
     // Use Beirut calendar dates for the displayed date range.
     const beirutParts = new Intl.DateTimeFormat("en-US", {
       timeZone: ZONE, year: "numeric", month: "2-digit", day: "2-digit"
