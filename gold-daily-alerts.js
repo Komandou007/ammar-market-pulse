@@ -48,10 +48,9 @@
   panel.append(title, description, enable, status, list);
 
   const target =
-    document.getElementById("liveNewsList") ||
-    document.getElementById("live-news") ||
-    document.querySelector("main") ||
-    document.body;
+  document.getElementById("live-news") ||
+  document.querySelector("main") ||
+  document.body;
 
   target.appendChild(panel);
 
