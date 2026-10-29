@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-29T20:16:15.410232+00:00",
+  "updated_at": "2026-10-29T21:00:29.523605+00:00",
   "items": [
+    {
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-10-29T20:30:00+00:00"
+    },
     {
       "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
@@ -174,12 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
       "source": "EIA",
       "published": "2026-10-07T14:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-10-05T20:30:00+00:00"
     }
   ]
 }
