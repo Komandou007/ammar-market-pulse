@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-29T12:30:06.057592+00:00",
+  "updated_at": "2026-10-29T13:37:11.257723+00:00",
   "items": [
+    {
+      "title": "LNG imports make up increasing share of Colombia's natural gas supply",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
+      "source": "EIA",
+      "published": "2026-10-29T14:00:00+00:00"
+    },
+    {
+      "title": "Monetary policy decisions",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "source": "ECB",
+      "published": "2026-10-29T13:15:00+00:00"
+    },
     {
       "title": "ECB President Lagarde to step down on 7 February 2027",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
@@ -152,12 +164,6 @@
       "published": "2026-10-08T11:30:00+00:00"
     },
     {
-      "title": "Piero Cipollone: Interview with Corriere della Sera",
-      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html",
-      "source": "ECB",
-      "published": "2026-10-08T06:00:00+00:00"
-    },
-    {
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
       "source": "Federal Reserve",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
       "source": "Federal Reserve",
       "published": "2026-10-05T20:30:00+00:00"
-    },
-    {
-      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
-      "source": "EIA",
-      "published": "2026-10-05T14:00:00+00:00"
     }
   ]
 }
