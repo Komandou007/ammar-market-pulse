@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-30T08:57:56.343640+00:00",
+  "updated_at": "2026-10-30T09:44:30.671977+00:00",
   "items": [
+    {
+      "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+      "source": "ECB",
+      "published": "2026-10-30T09:00:00+00:00"
+    },
     {
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
@@ -144,12 +150,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
       "source": "EIA",
       "published": "2026-10-14T14:00:00+00:00"
-    },
-    {
-      "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
-      "source": "ECB",
-      "published": "2026-10-14T00:00:00+00:00"
     },
     {
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
