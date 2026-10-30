@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-30T12:26:17.084028+00:00",
+  "updated_at": "2026-10-30T13:29:58.896829+00:00",
   "items": [
+    {
+      "title": "The share of solar generation with co-located battery storage is increasing",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+      "source": "EIA",
+      "published": "2026-10-30T14:00:00+00:00"
+    },
+    {
+      "title": "Major Economic Indicators Latest Numbers",
+      "url": "https://www.bls.gov/bls/",
+      "source": "BLS",
+      "published": "2026-10-30T12:30:25+00:00"
+    },
     {
       "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
@@ -48,12 +60,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "source": "Federal Reserve",
       "published": "2026-10-28T18:00:00+00:00"
-    },
-    {
-      "title": "Major Economic Indicators Latest Numbers",
-      "url": "https://www.bls.gov/bls/",
-      "source": "BLS",
-      "published": "2026-10-28T14:01:13+00:00"
     },
     {
       "title": "October 2026 euro area bank lending survey",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
       "source": "Federal Reserve",
       "published": "2026-10-07T18:00:00+00:00"
-    },
-    {
-      "title": "Mixed outlook for energy expenditures this winter",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
-      "source": "EIA",
-      "published": "2026-10-07T14:00:00+00:00"
     }
   ]
 }
