@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-04T08:38:28.797673+00:00",
+  "updated_at": "2026-11-04T09:34:25.569920+00:00",
   "items": [
+    {
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+      "source": "ECB",
+      "published": "2026-11-04T00:00:00+00:00"
+    },
     {
       "title": "Major Economic Indicators Latest Numbers",
       "url": "https://www.bls.gov/bls/",
@@ -126,12 +132,6 @@
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
       "source": "ECB",
       "published": "2026-10-21T08:00:00+00:00"
-    },
-    {
-      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
-      "source": "ECB",
-      "published": "2026-10-21T04:15:00+00:00"
     },
     {
       "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
