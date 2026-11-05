@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-05T15:38:22.287785+00:00",
+  "updated_at": "2026-11-05T16:42:17.680902+00:00",
   "items": [
+    {
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-05T16:00:00+00:00"
+    },
     {
       "title": "Refineries have shifted production away from gasoline to middle distillates",
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "source": "Federal Reserve",
       "published": "2026-10-13T18:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-10-09T14:00:00+00:00"
     }
   ]
 }
