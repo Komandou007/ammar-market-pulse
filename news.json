@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-05T13:47:33.809156+00:00",
+  "updated_at": "2026-11-05T14:41:44.370375+00:00",
   "items": [
+    {
+      "title": "Refineries have shifted production away from gasoline to middle distillates",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
+      "source": "EIA",
+      "published": "2026-11-05T14:00:00+00:00"
+    },
     {
       "title": "Major Economic Indicators Latest Numbers",
       "url": "https://www.bls.gov/bls/",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
       "source": "Federal Reserve",
       "published": "2026-10-09T14:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-10-08T20:30:00+00:00"
     }
   ]
 }
