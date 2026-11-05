@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-05T06:30:53.147846+00:00",
+  "updated_at": "2026-11-05T07:50:16.896283+00:00",
   "items": [
+    {
+      "title": "Piero Cipollone: Shaping the future of money",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+      "source": "ECB",
+      "published": "2026-11-05T07:30:00+00:00"
+    },
     {
       "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
@@ -126,12 +132,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
       "source": "EIA",
       "published": "2026-10-22T14:00:00+00:00"
-    },
-    {
-      "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
-      "source": "ECB",
-      "published": "2026-10-21T08:00:00+00:00"
     },
     {
       "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
