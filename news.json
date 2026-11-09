@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-09T20:24:53.611076+00:00",
+  "updated_at": "2026-11-09T21:17:46.952286+00:00",
   "items": [
+    {
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-09T21:00:00+00:00"
+    },
     {
       "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
@@ -174,12 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
       "source": "EIA",
       "published": "2026-10-15T14:00:00+00:00"
-    },
-    {
-      "title": "Monthly wind generation in ISO-NE is about 68% higher than last year",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
-      "source": "EIA",
-      "published": "2026-10-14T14:00:00+00:00"
     }
   ]
 }
