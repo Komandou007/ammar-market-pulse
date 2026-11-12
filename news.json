@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-12T18:23:14.628279+00:00",
+  "updated_at": "2026-11-12T19:23:11.589292+00:00",
   "items": [
+    {
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-12T18:30:00+00:00"
+    },
     {
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
@@ -174,12 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
       "source": "EIA",
       "published": "2026-10-22T14:00:00+00:00"
-    },
-    {
-      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
-      "source": "EIA",
-      "published": "2026-10-19T14:00:00+00:00"
     }
   ]
 }
