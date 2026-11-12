@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-12T15:37:33.355400+00:00",
+  "updated_at": "2026-11-12T16:39:09.845243+00:00",
   "items": [
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-12T16:00:00+00:00"
+    },
     {
       "title": "EIA forecasts Alaskan crude oil production to grow 13% in 2027",
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
       "source": "Federal Reserve",
       "published": "2026-10-16T15:00:00+00:00"
-    },
-    {
-      "title": "U.S. small-scale solar generation has quadrupled in the last decade",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
-      "source": "EIA",
-      "published": "2026-10-16T14:00:00+00:00"
     }
   ]
 }
