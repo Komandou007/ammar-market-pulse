@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-13T06:28:44.554092+00:00",
+  "updated_at": "2026-11-13T07:48:50.057183+00:00",
   "items": [
+    {
+      "title": "Isabel Schnabel: Made in Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+      "source": "ECB",
+      "published": "2026-11-13T07:20:00+00:00"
+    },
     {
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
@@ -162,12 +168,6 @@
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
       "source": "ECB",
       "published": "2026-10-29T13:15:00+00:00"
-    },
-    {
-      "title": "ECB President Lagarde to step down on 7 February 2027",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-      "source": "ECB",
-      "published": "2026-10-29T10:00:00+00:00"
     },
     {
       "title": "Federal Reserve issues FOMC statement",
