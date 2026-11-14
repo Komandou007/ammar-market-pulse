@@ -1,12 +1,6 @@
 {
-  "updated_at": "2026-11-14T04:22:02.137216+00:00",
+  "updated_at": "2026-11-14T05:15:30.676970+00:00",
   "items": [
-    {
-      "title": "Agencies extend comment period for proposed third-party risk management guidance",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-13T21:15:00+00:00"
-    },
     {
       "title": "Major Economic Indicators Latest Numbers",
       "url": "https://www.bls.gov/bls/",
@@ -24,24 +18,6 @@
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
       "source": "ECB",
       "published": "2026-11-13T07:20:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-12T18:30:00+00:00"
-    },
-    {
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-12T17:45:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-12T16:00:00+00:00"
     },
     {
       "title": "EIA forecasts Alaskan crude oil production to grow 13% in 2027",
@@ -62,12 +38,6 @@
       "published": "2026-11-10T14:00:00+00:00"
     },
     {
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-09T21:00:00+00:00"
-    },
-    {
       "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
       "source": "ECB",
@@ -84,12 +54,6 @@
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
       "source": "ECB",
       "published": "2026-11-06T09:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-05T16:00:00+00:00"
     },
     {
       "title": "Refineries have shifted production away from gasoline to middle distillates",
@@ -152,12 +116,6 @@
       "published": "2026-10-30T09:00:00+00:00"
     },
     {
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-10-29T20:30:00+00:00"
-    },
-    {
       "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
       "source": "ECB",
@@ -180,6 +138,48 @@
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
       "source": "ECB",
       "published": "2026-10-29T13:15:00+00:00"
+    },
+    {
+      "title": "U.S. refineries have been running at very high rates in 2026",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
+      "source": "EIA",
+      "published": "2026-10-22T14:00:00+00:00"
+    },
+    {
+      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
+      "source": "EIA",
+      "published": "2026-10-19T14:00:00+00:00"
+    },
+    {
+      "title": "U.S. small-scale solar generation has quadrupled in the last decade",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
+      "source": "EIA",
+      "published": "2026-10-16T14:00:00+00:00"
+    },
+    {
+      "title": "PJM, ERCOT, and SWPP all set peak load records this summer",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+      "source": "EIA",
+      "published": "2026-10-15T14:00:00+00:00"
+    },
+    {
+      "title": "Monthly wind generation in ISO-NE is about 68% higher than last year",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
+      "source": "EIA",
+      "published": "2026-10-14T14:00:00+00:00"
+    },
+    {
+      "title": "Mixed outlook for energy expenditures this winter",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
+      "source": "EIA",
+      "published": "2026-10-07T14:00:00+00:00"
+    },
+    {
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA",
+      "published": "2026-10-05T14:00:00+00:00"
     }
   ]
 }
