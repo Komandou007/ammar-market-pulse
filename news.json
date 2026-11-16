@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-16T08:06:44.840404+00:00",
+  "updated_at": "2026-11-16T18:26:24.715320+00:00",
   "items": [
+    {
+      "title": "Frank Elderson: Smart supervision for small banks",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+      "source": "ECB",
+      "published": "2026-11-16T13:00:00+00:00"
+    },
+    {
+      "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+      "source": "ECB",
+      "published": "2026-11-16T08:30:00+00:00"
+    },
     {
       "title": "Agencies extend comment period for proposed third-party risk management guidance",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
@@ -168,18 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
       "source": "EIA",
       "published": "2026-10-29T14:00:00+00:00"
-    },
-    {
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
-      "source": "ECB",
-      "published": "2026-10-29T14:00:00+00:00"
-    },
-    {
-      "title": "Monetary policy decisions",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
-      "source": "ECB",
-      "published": "2026-10-29T13:15:00+00:00"
     }
   ]
 }
