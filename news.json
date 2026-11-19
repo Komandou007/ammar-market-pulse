@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-19T07:14:22.732563+00:00",
+  "updated_at": "2026-11-19T16:36:33.759549+00:00",
   "items": [
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-19T16:00:00+00:00"
+    },
+    {
+      "title": "Oil flows through Middle East chokepoints increased in the third quarter",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "source": "EIA",
+      "published": "2026-11-19T14:00:00+00:00"
+    },
     {
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
@@ -168,18 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
       "source": "EIA",
       "published": "2026-11-03T14:00:00+00:00"
-    },
-    {
-      "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
-      "source": "ECB",
-      "published": "2026-11-02T09:30:00+00:00"
-    },
-    {
-      "title": "Philip R. Lane: AI adoption in Europe",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-      "source": "ECB",
-      "published": "2026-10-30T16:10:00+00:00"
     }
   ]
 }
