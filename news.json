@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-20T12:41:21.923622+00:00",
+  "updated_at": "2026-11-20T20:44:49.691527+00:00",
   "items": [
+    {
+      "title": "Major Economic Indicators Latest Numbers",
+      "url": "https://www.bls.gov/bls/",
+      "source": "BLS",
+      "published": "2026-11-20T15:03:24+00:00"
+    },
+    {
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-20T15:00:00+00:00"
+    },
     {
       "title": "Christine Lagarde: Acting in time",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
@@ -24,12 +36,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
       "source": "Federal Reserve",
       "published": "2026-11-18T19:00:00+00:00"
-    },
-    {
-      "title": "Major Economic Indicators Latest Numbers",
-      "url": "https://www.bls.gov/bls/",
-      "source": "BLS",
-      "published": "2026-11-18T15:00:23+00:00"
     },
     {
       "title": "U.S. natural gas inventories end injection season above normal levels",
@@ -174,12 +180,6 @@
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
       "source": "ECB",
       "published": "2026-11-05T07:30:00+00:00"
-    },
-    {
-      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
-      "source": "ECB",
-      "published": "2026-11-04T00:00:00+00:00"
     }
   ]
 }
