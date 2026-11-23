@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-23T11:17:48.644070+00:00",
+  "updated_at": "2026-11-23T22:44:20.083867+00:00",
   "items": [
+    {
+      "title": "Philip R. Lane: Climate change and monetary policy",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+      "source": "ECB",
+      "published": "2026-11-23T14:30:00+00:00"
+    },
     {
       "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
       "source": "Federal Reserve",
       "published": "2026-11-05T16:00:00+00:00"
-    },
-    {
-      "title": "Refineries have shifted production away from gasoline to middle distillates",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
-      "source": "EIA",
-      "published": "2026-11-05T14:00:00+00:00"
     }
   ]
 }
