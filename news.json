@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-23T02:42:14.680239+00:00",
+  "updated_at": "2026-11-23T11:17:48.644070+00:00",
   "items": [
+    {
+      "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+      "source": "ECB",
+      "published": "2026-11-23T10:00:00+00:00"
+    },
     {
       "title": "Federal Reserve announces College Fed Challenge winners",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
@@ -174,12 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
       "source": "EIA",
       "published": "2026-11-05T14:00:00+00:00"
-    },
-    {
-      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
-      "source": "ECB",
-      "published": "2026-11-05T08:00:00+00:00"
     }
   ]
 }
