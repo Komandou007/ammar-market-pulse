@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-24T06:28:01.979675+00:00",
+  "updated_at": "2026-11-24T18:08:08.992861+00:00",
   "items": [
+    {
+      "title": "How does EIA compare different types of energy?",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
+      "source": "EIA",
+      "published": "2026-11-24T14:00:00+00:00"
+    },
+    {
+      "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+      "source": "ECB",
+      "published": "2026-11-24T11:00:00+00:00"
+    },
     {
       "title": "Philip R. Lane: Climate change and monetary policy",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
@@ -168,18 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
       "source": "EIA",
       "published": "2026-11-06T14:00:00+00:00"
-    },
-    {
-      "title": "ECB publishes consolidated banking data for end-June 2026",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
-      "source": "ECB",
-      "published": "2026-11-06T09:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-05T16:00:00+00:00"
     }
   ]
 }
