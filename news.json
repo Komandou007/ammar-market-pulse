@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-25T02:21:22.876937+00:00",
+  "updated_at": "2026-11-25T11:29:19.933998+00:00",
   "items": [
+    {
+      "title": "Card payments edge past cash in shops; euro area consumers want both",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+      "source": "ECB",
+      "published": "2026-11-25T10:00:00+00:00"
+    },
     {
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
       "source": "Federal Reserve",
       "published": "2026-11-09T21:00:00+00:00"
-    },
-    {
-      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
-      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
-      "source": "ECB",
-      "published": "2026-11-07T14:00:00+00:00"
     }
   ]
 }
