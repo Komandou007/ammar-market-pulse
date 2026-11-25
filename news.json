@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-25T11:29:19.933998+00:00",
+  "updated_at": "2026-11-25T20:36:25.552843+00:00",
   "items": [
+    {
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-25T20:00:00+00:00"
+    },
+    {
+      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-25T20:00:00+00:00"
+    },
+    {
+      "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
+      "source": "ECB",
+      "published": "2026-11-25T17:30:00+00:00"
+    },
+    {
+      "title": "Almost 60% of primary energy used for electricity is lost to conversion and transmission",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
+      "source": "EIA",
+      "published": "2026-11-25T14:00:00+00:00"
+    },
     {
       "title": "Card payments edge past cash in shops; euro area consumers want both",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
@@ -12,12 +36,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
       "source": "Federal Reserve",
       "published": "2026-11-24T19:00:00+00:00"
-    },
-    {
-      "title": "How does EIA compare different types of energy?",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
-      "source": "EIA",
-      "published": "2026-11-24T14:00:00+00:00"
     },
     {
       "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
@@ -162,24 +180,6 @@
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
       "source": "EIA",
       "published": "2026-11-12T14:00:00+00:00"
-    },
-    {
-      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
-      "source": "ECB",
-      "published": "2026-11-10T16:45:00+00:00"
-    },
-    {
-      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
-      "source": "ECB",
-      "published": "2026-11-10T14:00:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-09T21:00:00+00:00"
     }
   ]
 }
