@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-24T18:08:08.992861+00:00",
+  "updated_at": "2026-11-25T02:21:22.876937+00:00",
   "items": [
+    {
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-24T19:00:00+00:00"
+    },
     {
       "title": "How does EIA compare different types of energy?",
       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
@@ -174,12 +180,6 @@
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
       "source": "ECB",
       "published": "2026-11-07T14:00:00+00:00"
-    },
-    {
-      "title": "U.S. crude oil imports from Venezuela in July were highest since 2017",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
-      "source": "EIA",
-      "published": "2026-11-06T14:00:00+00:00"
     }
   ]
 }
