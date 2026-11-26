@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-26T12:16:22.593629+00:00",
+  "updated_at": "2026-11-26T21:41:25.844368+00:00",
   "items": [
+    {
+      "title": "Meeting of 28-29 October 2026",
+      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+      "source": "ECB",
+      "published": "2026-11-26T12:30:00+00:00"
+    },
     {
       "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
       "source": "Federal Reserve",
       "published": "2026-11-12T16:00:00+00:00"
-    },
-    {
-      "title": "EIA forecasts Alaskan crude oil production to grow 13% in 2027",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
-      "source": "EIA",
-      "published": "2026-11-12T14:00:00+00:00"
     }
   ]
 }
