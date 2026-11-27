@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-27T03:47:02.416011+00:00",
+  "updated_at": "2026-11-27T13:11:47.953006+00:00",
   "items": [
+    {
+      "title": "ECB Consumer Expectations Survey results – October 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+      "source": "ECB",
+      "published": "2026-11-27T09:00:00+00:00"
+    },
     {
       "title": "Meeting of 28-29 October 2026",
       "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
@@ -174,12 +180,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
       "source": "Federal Reserve",
       "published": "2026-11-12T17:45:00+00:00"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-12T16:00:00+00:00"
     }
   ]
 }
